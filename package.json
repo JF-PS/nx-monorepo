@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
+    "start": "serve next-app --no-dev",
     "build": "nx build",
     "test": "nx test",
-    "heroku-postbuild": "nx build $PROJECT_NAME --prod"
+    "heroku-postbuild--save": "nx build $PROJECT_NAME --prod"
   },
   "private": true,
   "dependencies": {
