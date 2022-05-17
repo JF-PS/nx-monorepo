@@ -1,4 +1,4 @@
-web: node dist/apps/next-app/.next
+web: node ../dist/apps/next-app
 
 
 
