@@ -1,1 +1,1 @@
-web: npm start dist/apps/next-app
+web: cd ./dist/apps/next-app && npm start
