@@ -1,1 +1,1 @@
-web: npx nx serve next-app --no-dev
+web: npm install -g @nrwl/cli && npm install && npx nx serve next-app --no-dev
