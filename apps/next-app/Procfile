@@ -1,1 +1,1 @@
-web: cd ./dist/apps/next-app && npm start
+web: npx nx serve next-app --no-dev
